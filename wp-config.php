@@ -20,13 +20,13 @@
 
 // ** MySQL settings - You can get this info from your web host ** //
 /** The name of the database for WordPress */
-define( 'DB_NAME', 'database_name_here' );
+define( 'DB_NAME', 'slimwp_db525' );
 
 /** MySQL database username */
-define( 'DB_USER', 'username_here' );
+define( 'DB_USER', 'slimwp_usr525' );
 
 /** MySQL database password */
-define( 'DB_PASSWORD', 'password_here' );
+define( 'DB_PASSWORD', 'q+%iQ5KRZns_Y1Qf+flrGM-eFu#wVWC.' );
 
 /** MySQL hostname */
 define( 'DB_HOST', 'localhost' );
@@ -46,14 +46,14 @@ define( 'DB_COLLATE', '' );
  *
  * @since 2.6.0
  */
-define( 'AUTH_KEY',         'put your unique phrase here' );
-define( 'SECURE_AUTH_KEY',  'put your unique phrase here' );
-define( 'LOGGED_IN_KEY',    'put your unique phrase here' );
-define( 'NONCE_KEY',        'put your unique phrase here' );
-define( 'AUTH_SALT',        'put your unique phrase here' );
-define( 'SECURE_AUTH_SALT', 'put your unique phrase here' );
-define( 'LOGGED_IN_SALT',   'put your unique phrase here' );
-define( 'NONCE_SALT',       'put your unique phrase here' );
+ define('AUTH_KEY',         'CD4VS@d}|d)6&Tg+Zf~Sk+V|x%*!o,]r(k3h$-SV+<B]MKYMt!;i@vWQruJ@(nOz');
+ define('SECURE_AUTH_KEY',  '-F.:G+8{oZAKVi-)9N+/G!ivGmC-Hq:L+L-.WaB/hc!+SF(,WRyF$_09nyR|mxcq');
+ define('LOGGED_IN_KEY',    'mQ+rDUo-abj/o4PS~e8BgI::<k@!1y[4Bb9@1MT9~,(P<0;]Vc:+2A~<!ExH)y6 ');
+ define('NONCE_KEY',        'ID+9m]Yo{B/JVJY-W^cq|asUs&%M>J!Rv7:|q;_Gq$3K#>Mhm-i}_+`hc:-MvZZ7');
+ define('AUTH_SALT',        '-w)>(~k%8oO6BCC!Vd<KQtWzYa-|V38*!_1o!q@hl^K!yKDbG#pW|S^kC9zwjRKw');
+ define('SECURE_AUTH_SALT', 'sDf}B)%^p5E0&_!8#63DxW=to~[3a+R<4CcCV#%0/}|VN~[.G@(B]BxEaIn+%vMR');
+ define('LOGGED_IN_SALT',   'jrfdr`Ym ^vIgC@cm9<IB l3r-diMU#@W06/ZPv>1,P)V3ugr6pon#|4cx7LTiC|');
+ define('NONCE_SALT',       'p!z>T?0>W*{)+jIt|i|_P%C)*yqO]MCJS]<93,G61mjmr9|8>cq#|);FauVsCz-(');
 
 /**#@-*/
 
@@ -63,7 +63,7 @@ define( 'NONCE_SALT',       'put your unique phrase here' );
  * You can have multiple installations in one database if you give each
  * a unique prefix. Only numbers, letters, and underscores please!
  */
-$table_prefix = 'wp_';
+$table_prefix = 's3curewp_';
 
 /**
  * For developers: WordPress debugging mode.
